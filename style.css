@@ -5,6 +5,7 @@ body{
 
 h1, h2{
     text-align: center;
+    /* color: purple; */
 }
 
 .input-section{
@@ -23,4 +24,44 @@ h1, h2{
 .input-section input[type="number"], .input-section input[type="date"] {
     padding: 5px;
     margin-right: 10px;
+}
+.input-section button{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.expenses-list{
+    margin: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+tfoot td{
+    font-weight: bold;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
